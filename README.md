@@ -17,6 +17,7 @@ This repository contains practical backend and database exercises developed duri
 * **DML (Data Manipulation Language):** `INSERT INTO`, `UPDATE`, `DELETE`
 * **DQL (Data Query Language):** `SELECT`, `WHERE`, `BETWEEN`, `LIKE`
 * **Database Relationships:** Primary Keys (`PRIMARY KEY`), Foreign Keys (`FOREIGN KEY`), and `INNER JOIN`
+* **Database Modeling:** Entity-Relationship Diagrams (ERD) and Forward Engineering via MySQL Workbench
 
 ---
 
@@ -32,3 +33,4 @@ The project is organized into individual SQL files, each addressing a distinct b
 | `exe04.sql` | **Online RPG Game** | 1:N Relationship (Classes & Characters), usage of `BETWEEN`, `LIKE` operators, and `INNER JOIN`. |
 | `exe05.sql` | **Pizzeria Order Control** | Relational logic between Pizzas and Categories, text pattern matching, and conditional `INNER JOIN` queries. |
 | `exe06.sql` | **Cruelty-Free Pharmacy** | Composite query filtering, foreign key management, and sector-specific data extraction using table joins. |
+| `loja_games.sql` | **Game Store E-commerce** | Multi-table relationship architecture mapping Categories, Users, and Products, including full DDL constraint definitions and referential integrity configuration. |
